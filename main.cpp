@@ -2,13 +2,16 @@
 //учебная программа
 int main ()
 {
-    double a,b,s,d;
+    double a,b,s,d,div;
+
     cout <<"Enter two numbers \n";
     cin>>a;
     cin>>b;
     s=a+b;
    d=a-b;
-   cout<<"S= "<<s<<" \n";
-   cout<<"D= "<<d<<" \n";
+   div=a/b;
+   cout<<"S= "<<s<<" \n"
+  <<"D= "<<d<<" \n"
+  <<"Div= "<<div<<" \n";
 
 }
