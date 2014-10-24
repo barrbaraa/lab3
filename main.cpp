@@ -1,4 +1,5 @@
 #include "sdt.h"
+//учебная программа
 int main ()
 {
     double a,b,s,d;
