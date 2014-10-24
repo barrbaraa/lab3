@@ -3,6 +3,7 @@
 int main ()
 {
     double a,b,s,d,m;
+    double a,b,s,d,div;
     cout <<"Enter two numbers \n";
     cin>>a;
     cin>>b;
@@ -12,5 +13,9 @@ int main ()
    cout<<"S= "<<s<<" \n"
    <<"D= "<<d<<" \n"
    <<"M= "<<m<<" \n";
+   div=a/b;
+   cout<<"S= "<<s<<" \n"
+  <<"D= "<<d<<" \n"
+  <<"Div= "<<div<<" \n";
 
 }
